@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./logo.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div class="start">
+            <h2>Quiz Numérico</h2>
+            <button class="btnStart">INICIAR</button>
+        </div>
+        <div class="rules">
+            <h2> Regras</h2>
+            <span>- Você poderá escolher um número de 1 a 100.</span>
+            <span>- Você terá 10 tentativas. </span>
+            <span>- Assim que acertar o numero o jogo acabará automaticamente.</span>
+            <span>- A cada jogada você receberá um dica se é maior ou menor.</span>
+            <span>- Chegando ao total de <strong> 0 tentativas </strong> você perde.</span>
+            <button class="btnRules">COMEÇAR</button>
+        </div>
+        <div class="main">
+            <h2>Quiz Numérico</h2>
+            <h3 class="lifers">Tentativas restantes: 10</h3>
+            <input class="gaming" type="number" placeholder="Digite um numero de 1 a 100">
+             <button class="tentativa">-1 TENTATIVA</button> 
+             <button class="btnRestartTentativas">RECOMEÇAR</button>           
+            <span class="dica">ㅤ</span>
+        </div>
+        <div class="victory">
+                <h2> Parabéns! <br>Você venceu!!!</h2>
+                <span>Esse jogo foi apenas uma cópia do jogo que foi apresentado na sala de aula.</span>
+                <span>O jogo original foi apresentado em Python e agora criado com JavaScript.</span>
+                <span>Para jogar de novo clique no botão abaixo.</span>
+                
+                <button class="btnRestart">RECOMEÇAR</button>
+            </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
