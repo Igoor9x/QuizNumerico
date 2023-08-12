@@ -18,7 +18,7 @@ const lifeMessage = document.querySelector(".lifers");
 const dicaMessage = document.querySelector(".dica");
 
 
-const numberRandom = Math.floor(Math.random()* 2 +1);
+const numberRandom = Math.floor(Math.random()* 100 +1);
 let tentavivas = 10;
 
 
